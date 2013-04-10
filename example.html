@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Nico HTML 5 Player - example.html</title>
+        <link rel="stylesheet" type="text/css" href="lib/player.css" />
+        <script src="lib/player.js"></script>
+    </head>
+    
+    <body>
+        <h1>Nico HTML 5 Player - example.html</h1>
+        <video>
+            <source src="example-videos/example.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+            <source src="example-videos/example.ogg" type='video/ogg; codecs="theora, vorbis"' />
+            <source src="example-videos/example.webm" type='video/webm; codecs="vp8, vorbis"' />
+            <object data="example-videos/example.mp4" class="video-fallback">
+                <embed src="example-videos/example.swf" />
+            </object>
+        </video>
+        <hr />
+        <div class="copyright">Copyright &copy; 2013 Ming Tsay. Release under <a href="LICENSE.md">MIT License</a></div>
+    </body>
+</html>
